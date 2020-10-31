@@ -26,12 +26,7 @@ function App() {
             <ClickButton name="green" onClick={value => setColour(value)}/>
             <ClickButton name="aqua" onClick={value => setColour(value)} />
             <ClickButton name="blue" onClick={value => setColour(value)}/>
-            <ClickButton name="purple" onClick={value => setColour(value)}/>
-
-    
-
-
-           
+            <ClickButton name="purple" onClick={value => setColour(value)}/>           
         </div>
         <Canvas colour={colour}/>
       
